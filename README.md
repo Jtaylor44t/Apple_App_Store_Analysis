@@ -1,5 +1,12 @@
 # Apple_App_Store_Analysis
 
+I used sqliteonline.com for this project. It is a browser based SQL IDE. You can upload your data directly to it and immediately begin querying it.
+It also has a built in function that allows you to display your query results as graphs/charts. That's why some select statements may have graph types 
+in front of them like 'BAR-SELECT' and 'LINE-SELECT'. This represents the query result as the respected chart type when ran.
+
+I wanted to put the raw code into this repository and also a pdf that includes the graphs/charts under the query results so they are visible and easy to understand.
+So there will be a file with the raw code, and a PDF with the graphs/charts included under the code blocks.
+
 I wanted to make this analysis practical, so I'm using a fictional stakeholder to give myself some accountability and a clear purpose of this analysis. 
 
 My fictional stake holder is an aspiring app developer looking into building an app. They need some questions answered first:
