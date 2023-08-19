@@ -10,9 +10,9 @@ So there will be a file with the raw code, and a PDF with the graphs/charts incl
 I wanted to make this analysis practical, so I'm using a fictional stakeholder to give myself some accountability and a clear purpose of this analysis. 
 
 My fictional stake holder is an aspiring app developer looking into building an app. They need some questions answered first:
-1) what app categories are the most popular? 
-2) what price should they set? 
-3) how can they maximize user ratings?
+1) What app categories are the most popular? 
+2) What price should they set? 
+3) How can they maximize user ratings?
 
 I answered these questions using Exploratory Data Analysis (EDA). 
 Here are some of the steps I took:
@@ -29,17 +29,18 @@ Here are some of the steps I took:
 10) I checked the most expensive app in each genre and it's user rating.
 11) After that I wanted to explore if the number of devices an app supported had anything to do with increased success/user ratings of the app.
         - I did this by finding out the minimum, maximum, and average number of devices supported by apps.
-12) I then checked if more supported devices meant a higher average rating. 
+12) I then checked if more supported devices meant a higher average rating.
+13) I then got the minimum, maximum, and average price of apps in each category to determine a good price point.
 
 Top insights 
 1) Paid apps have better ratings 
-2) apps supporting between 10 and 30 languages have better ratings 
-3) finance and book apps have low ratings 
-4) apps with a longer description have better ratings 
-5) a new app should aim for an average rating above 3.5 
-6) games and entertainment have high competition
+2) Apps supporting between 10 and 30 languages have better ratings 
+3) Finance and book apps have low ratings 
+4) Apps with a longer description have better ratings 
+5) A new app should aim for an average rating above 3.5 
+6) Games and entertainment have high competition
 
 Conclusion for the client/stakeholder:
 Since there are quite a few genres with low average user ratings, there might be good opportunity in these genres to make a good functioning app.
-There represents a good market opportunity where user's needs are not being met. If you can create a quality app in these categories that better address the user needs than the current offerings,
+This represents a good market opportunity where user's needs are not being met. If you can create a quality app in these categories that better address the user needs than the current offerings,
 there is a strong potential for high user ratings and market penetration. 
