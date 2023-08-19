@@ -79,7 +79,7 @@ ORDER BY Avg_Rating DESC
 -- Check genres with low ratings 
 
 BAR-SELECT prime_genre,
-	   avg(user_rating) AS Avg_Rating
+	       avg(user_rating) AS Avg_Rating
 FROM AppleStore
 GROUP BY prime_genre
 ORDER BY Avg_Rating ASC
@@ -181,40 +181,6 @@ WHERE
 	prime_genre IN ('Games', 'Entertainment', 'Education', 'Photo & Video', 'Utilities', 'Health & Fitness',
                    'Productivity', 'Social Networking', 'Lifestyle', 'Music', 'Shopping', 'Sports', 'Book',
                    'Finance', 'Travel', 'News', 'Weather', 'Reference', 'Food & Drink', 'Business',
-                   'Navigation', 'Medical', 'Catalogs') = 
-GROUP BY prime_genre
-
--- I want to plot the average price for each genre 
-LINE-SELECT 
-	avg(price)
-FROM 
-	AppleStore
-WHERE 
-	prime_genre IN ('Games', 'Entertainment', 'Education', 'Photo & Video', 'Utilities', 'Health & Fitness',
-                   'Productivity', 'Social Networking', 'Lifestyle', 'Music', 'Shopping', 'Sports', 'Book',
-                   'Finance', 'Travel', 'News', 'Weather', 'Reference', 'Food & Drink', 'Business',
                    'Navigation', 'Medical', 'Catalogs')
-group by prime_genre;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+GROUP BY prime_genre
 
